@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2F90221EC13EE4002E10A6 /* GoTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F90211EC13EE4002E10A6 /* GoTViewController.swift */; };
+		DF2F90241EC14170002E10A6 /* ReadingStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F90231EC14170002E10A6 /* ReadingStoryViewController.swift */; };
+		DF2F90261EC14CA9002E10A6 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F90251EC14CA9002E10A6 /* ThemeViewController.swift */; };
+		DF2F90281EC14CC0002E10A6 /* GameSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F90271EC14CC0002E10A6 /* GameSettingViewController.swift */; };
+		DF2F902A1EC151A5002E10A6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F90291EC151A5002E10A6 /* LoadingViewController.swift */; };
+		DF2F902C1EC1F4CE002E10A6 /* GamePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F902B1EC1F4CE002E10A6 /* GamePlayViewController.swift */; };
+		DF2F902E1EC252E0002E10A6 /* storyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F902D1EC252E0002E10A6 /* storyListViewController.swift */; };
 		DF35872F1EB6AAAF00C28F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF35872E1EB6AAAF00C28F28 /* AppDelegate.swift */; };
 		DF3587311EB6AAAF00C28F28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3587301EB6AAAF00C28F28 /* ViewController.swift */; };
 		DF3587341EB6AAB000C28F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3587321EB6AAB000C28F28 /* Main.storyboard */; };
@@ -14,6 +21,7 @@
 		DF3587391EB6AAB000C28F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3587371EB6AAB000C28F28 /* LaunchScreen.storyboard */; };
 		DF3587441EB6AAB000C28F28 /* oceanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3587431EB6AAB000C28F28 /* oceanTests.swift */; };
 		DF35874F1EB6AAB000C28F28 /* oceanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF35874E1EB6AAB000C28F28 /* oceanUITests.swift */; };
+		DFA1DBB11EBFD12100BF8A6F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1DBB01EBFD12100BF8A6F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2F90211EC13EE4002E10A6 /* GoTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoTViewController.swift; sourceTree = "<group>"; };
+		DF2F90231EC14170002E10A6 /* ReadingStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingStoryViewController.swift; sourceTree = "<group>"; };
+		DF2F90251EC14CA9002E10A6 /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		DF2F90271EC14CC0002E10A6 /* GameSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettingViewController.swift; sourceTree = "<group>"; };
+		DF2F90291EC151A5002E10A6 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		DF2F902B1EC1F4CE002E10A6 /* GamePlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayViewController.swift; sourceTree = "<group>"; };
+		DF2F902D1EC252E0002E10A6 /* storyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storyListViewController.swift; sourceTree = "<group>"; };
 		DF35872B1EB6AAAF00C28F28 /* ocean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ocean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF35872E1EB6AAAF00C28F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF3587301EB6AAAF00C28F28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,7 @@
 		DF35874A1EB6AAB000C28F28 /* oceanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oceanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF35874E1EB6AAB000C28F28 /* oceanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oceanUITests.swift; sourceTree = "<group>"; };
 		DF3587501EB6AAB000C28F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA1DBB01EBFD12100BF8A6F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +116,17 @@
 				DF35872E1EB6AAAF00C28F28 /* AppDelegate.swift */,
 				DF3587301EB6AAAF00C28F28 /* ViewController.swift */,
 				DF3587321EB6AAB000C28F28 /* Main.storyboard */,
+				DFA1DBB01EBFD12100BF8A6F /* MainViewController.swift */,
 				DF3587351EB6AAB000C28F28 /* Assets.xcassets */,
 				DF3587371EB6AAB000C28F28 /* LaunchScreen.storyboard */,
 				DF35873A1EB6AAB000C28F28 /* Info.plist */,
+				DF2F90211EC13EE4002E10A6 /* GoTViewController.swift */,
+				DF2F90231EC14170002E10A6 /* ReadingStoryViewController.swift */,
+				DF2F90251EC14CA9002E10A6 /* ThemeViewController.swift */,
+				DF2F90271EC14CC0002E10A6 /* GameSettingViewController.swift */,
+				DF2F90291EC151A5002E10A6 /* LoadingViewController.swift */,
+				DF2F902B1EC1F4CE002E10A6 /* GamePlayViewController.swift */,
+				DF2F902D1EC252E0002E10A6 /* storyListViewController.swift */,
 			);
 			path = ocean;
 			sourceTree = "<group>";
@@ -193,6 +217,7 @@
 				TargetAttributes = {
 					DF35872A1EB6AAAF00C28F28 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 79C5S7XFFD;
 						ProvisioningStyle = Automatic;
 					};
 					DF35873E1EB6AAB000C28F28 = {
@@ -259,8 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2F90261EC14CA9002E10A6 /* ThemeViewController.swift in Sources */,
+				DF2F90241EC14170002E10A6 /* ReadingStoryViewController.swift in Sources */,
+				DFA1DBB11EBFD12100BF8A6F /* MainViewController.swift in Sources */,
+				DF2F902A1EC151A5002E10A6 /* LoadingViewController.swift in Sources */,
+				DF2F90281EC14CC0002E10A6 /* GameSettingViewController.swift in Sources */,
 				DF3587311EB6AAAF00C28F28 /* ViewController.swift in Sources */,
+				DF2F902E1EC252E0002E10A6 /* storyListViewController.swift in Sources */,
 				DF35872F1EB6AAAF00C28F28 /* AppDelegate.swift in Sources */,
+				DF2F902C1EC1F4CE002E10A6 /* GamePlayViewController.swift in Sources */,
+				DF2F90221EC13EE4002E10A6 /* GoTViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79C5S7XFFD;
 				INFOPLIST_FILE = ocean/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucien.ocean;
@@ -424,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79C5S7XFFD;
 				INFOPLIST_FILE = ocean/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucien.ocean;
@@ -505,6 +540,7 @@
 				DF3587551EB6AAB000C28F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3587561EB6AAB000C28F28 /* Build configuration list for PBXNativeTarget "oceanTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +549,7 @@
 				DF3587581EB6AAB000C28F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3587591EB6AAB000C28F28 /* Build configuration list for PBXNativeTarget "oceanUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +558,7 @@
 				DF35875B1EB6AAB000C28F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
