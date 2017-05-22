@@ -33,7 +33,7 @@ class LoadingViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         navigationController?.tabBarController?.tabBar.isHidden = true
-        titleLabel.text = storyTitle
+        titleLabel.text = "<"+storyTitle+">"
         loading1.isHidden = true
         loading2.isHidden = true
         loading3.isHidden = true

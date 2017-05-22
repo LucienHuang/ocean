@@ -14,6 +14,9 @@ class GameSettingViewController: UIViewController, UITextFieldDelegate, UITextVi
     @IBOutlet weak var storyTitle: UITextField!
     @IBOutlet weak var storyContext: UITextField!
     
+    @IBOutlet weak var scrollViewHeight: NSLayoutConstraint!
+    
+    @IBOutlet weak var scrollView: UIScrollView!
     
     @IBOutlet weak var bgImg: UIImageView!
     @IBOutlet weak var Choose: UIButton!
@@ -52,6 +55,20 @@ class GameSettingViewController: UIViewController, UITextFieldDelegate, UITextVi
     }
     
     
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        scrollViewHeight.constant = 400
+        scrollView.setContentOffset(CGPoint(x: 0, y: scrollView.contentOffset.y + 155), animated: false)
+        view.layoutIfNeeded()
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        textField.resignFirstResponder()
+        scrollViewHeight.constant = 555
+        scrollView.setContentOffset(CGPoint(x: 0, y: scrollView.contentOffset.y - 155), animated: false)
+        view.layoutIfNeeded()
+    }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "createGameNow"{
             if let vc = segue.destination as?LoadingViewController{
@@ -69,4 +86,11 @@ class GameSettingViewController: UIViewController, UITextFieldDelegate, UITextVi
     }
     */
 
+}
+
+extension GameSettingViewController:UIScrollViewDelegate {
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        storyTitle.resignFirstResponder()
+        storyContext.resignFirstResponder()
+    }
 }

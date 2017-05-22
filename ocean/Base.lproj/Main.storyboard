@@ -480,12 +480,18 @@
                                         <color key="textColor" red="0.0078431372550000003" green="0.1960784314" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="AC6-pa-Qc3" id="JYM-SL-M1n"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Text context here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jeo-LQ-rRN">
                                         <rect key="frame" x="14" y="477" width="347" height="30"/>
                                         <color key="textColor" red="0.0078431372550000003" green="0.1960784314" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="AC6-pa-Qc3" id="utV-we-Asm"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <constraints>
@@ -505,6 +511,9 @@
                                     <constraint firstItem="Uvt-gp-y0z" firstAttribute="top" secondItem="t57-5J-lp0" secondAttribute="bottom" constant="178" id="tEq-Ys-a27"/>
                                     <constraint firstItem="t57-5J-lp0" firstAttribute="leading" secondItem="1Y8-Fl-V3O" secondAttribute="leading" id="teO-sh-7Nd"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="AC6-pa-Qc3" id="Q1b-ME-TGJ"/>
+                                </connections>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQI-lp-QE6">
                                 <rect key="frame" x="0.0" y="554" width="375" height="49"/>
@@ -544,6 +553,8 @@
                         <outlet property="Choose" destination="t57-5J-lp0" id="foz-T3-Ids"/>
                         <outlet property="bgImg" destination="TES-AS-PEL" id="SK9-xm-Q0Z"/>
                         <outlet property="createGame" destination="dQI-lp-QE6" id="l4B-St-Ulj"/>
+                        <outlet property="scrollView" destination="1Y8-Fl-V3O" id="clp-2d-wVw"/>
+                        <outlet property="scrollViewHeight" destination="rnG-h5-trL" id="tGc-BR-JvW"/>
                         <outlet property="storyContext" destination="Jeo-LQ-rRN" id="Huc-zf-K4z"/>
                         <outlet property="storyTitle" destination="Uvt-gp-y0z" id="ybn-7U-ev2"/>
                     </connections>
@@ -567,7 +578,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8q-cU-Qer">
                                 <rect key="frame" x="16" y="110" width="343" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">&lt;Peter Smith&gt; joined the game&lt;Celia461&gt; joined the game&lt;Yun&gt; joined the game&lt;Yun&gt; left the game&lt;Yamamoto&gt; joined the game</string>
+                                <string key="text">&lt;Peter Smith&gt; joined the game
+&lt;Celia461&gt; joined the game
+&lt;Yun&gt; joined the game
+&lt;Yun&gt; left the game
+&lt;Yamamoto&gt; joined the game</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.011764705882352941" green="0.33333333333333331" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -575,7 +590,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02b-2n-BWs">
                                 <rect key="frame" x="16" y="212" width="343" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">&lt;Michael8583&gt; joined the game&lt;Omi Umi&gt; joined the game&lt;Ugly naked GUY&gt; joined the game&lt;Elysseeee&gt; joined the game&lt;Kyle Angela&gt; joined the game&lt;Nicolas7401&gt; joined the game</string>
+                                <string key="text">&lt;Michael8583&gt; joined the game
+&lt;Omi Umi&gt; joined the game
+&lt;Ugly naked GUY&gt; joined the game
+&lt;Elysseeee&gt; joined the game
+&lt;Kyle Angela&gt; joined the game
+&lt;Nicolas7401&gt; joined the game</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.01176470588" green="0.33333333329999998" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -593,7 +613,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hq-B6-us0">
                                 <rect key="frame" x="16" y="351" width="343" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Everyone is here ...Distributing characters ...Sending everyone notifications ...</string>
+                                <string key="text">Everyone is here ...
+Distributing characters ...
+Sending everyone notifications ...
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0078431372550000003" green="0.1960784314" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
